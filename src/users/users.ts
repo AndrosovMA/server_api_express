@@ -10,4 +10,8 @@ router.post('./register', (req, res) => {
   res.send('./register')
 });
 
+function user (a:string, b: string)  {
+  return a + b
+}
+
 export default router
